@@ -10,7 +10,7 @@ CREATE TABLE songs (<br/>
 <br/>
 <h2> <strong>API Endpoint</strong></h2><br/>
 <ul>
-    <li> // create new song
+    <li> // create new song<br/>
         POST: <a href="#">http://localhost:5555/song</a><br/>
         body:<br/>
         {<br/>
@@ -18,13 +18,13 @@ CREATE TABLE songs (<br/>
 	    "Singer":"Rachel Platten"<br/>
         }<br/>
     </li>
-    <li> // get all songs
+    <li> // get all songs<br/>
         GET: <a href="#">http://localhost:5555/songs</a><br/>
     </li>
-    <li> // get specific song
+    <li> // get specific song<br/>
         GET: <a href="#">http://localhost:5555/song/3</a><br/>
     </li>
-    <li> // update a song
+    <li> // update a song<br/>
         PUT: <a href="#">http://localhost:5555/song/1</a><br/>
         body:<br/>
         {<br/>
@@ -32,7 +32,7 @@ CREATE TABLE songs (<br/>
   	    "singer": "Ed Sheeran"<br/>
         }</br>
     </li>
-    <li> // delete a song
+    <li> // delete a song<br/>
         GET: <a href="#">http://localhost:5555/song/3</a><br/>
     </li>
 </ul>
