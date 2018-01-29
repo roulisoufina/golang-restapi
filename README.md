@@ -1,5 +1,5 @@
 # golang-restapi
-Simple Rest API using Golang and MYSQL<br/>
+Simple Restful API using Golang and MYSQL<br/>
 <h2>Database Configuration</h2><br/>
 <span>CREATE DATABASE gorestapidb;<br/>
 USE gorestapidb;<br/>
