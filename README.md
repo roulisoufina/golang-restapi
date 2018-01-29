@@ -1,4 +1,13 @@
 # golang-restapi
+<h2>Database Configuration</h2><br/>
+CREATE DATABASE gorestapidb;
+USE gorestapidb;
+CREATE TABLE songs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(50) NOT NULL,
+    singer VARCHAR(50) NOT NULL
+);
+<br/>
 <h2> <strong>API Endpoint</strong></h2><br/>
 <ul>
 <li><a href="http://localhost:1234/api/v1/companies">http://localhost:1234/api/v1/companies</a>
