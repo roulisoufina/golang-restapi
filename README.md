@@ -10,15 +10,33 @@ CREATE TABLE songs (<br/>
 <br/>
 <h2> <strong>API Endpoint</strong></h2><br/>
 <ul>
-    <li>
+    <li> // create new song
         POST: <a href="#">http://localhost:5555/song</a><br/>
-        body:</br>
-        {</br>
-	    "Title":"Fight Song",</br>
-	    "Singer":"Rachel Platten"</br>
+        body:<br/>
+        {<br/>
+	    "Title":"Fight Song",<br/>
+	    "Singer":"Rachel Platten"<br/>
+        }<br/>
+    </li>
+    <li> // get all songs
+        GET: <a href="#">http://localhost:5555/songs</a><br/>
+    </li>
+    <li> // get specific song
+        GET: <a href="#">http://localhost:5555/song/3</a><br/>
+    </li>
+    <li> // update a song
+        PUT: <a href="#">http://localhost:5555/song/1</a><br/>
+        body:<br/>
+        {<br/>
+	    "title": "Photograph",<br/>
+  	    "singer": "Ed Sheeran"<br/>
         }</br>
     </li>
+    <li> // delete a song
+        GET: <a href="#">http://localhost:5555/song/3</a><br/>
+    </li>
 </ul>
+
 <hr/>
 <h2>Data Structure</h2><br/>
 <div class="highlight highlight-source-json"><pre>{
