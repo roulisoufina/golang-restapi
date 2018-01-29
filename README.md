@@ -36,11 +36,3 @@ CREATE TABLE songs (<br/>
         GET: <a href="#">http://localhost:5555/song/3</a><br/>
     </li>
 </ul>
-
-<hr/>
-<h2>Data Structure</h2><br/>
-<div class="highlight highlight-source-json"><pre>{
-  <span class="pl-s"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>golang<span class="pl-pds">"</span></span>,
-  <span class="pl-s"><span class="pl-pds">"</span>tel<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>012-345-6789<span class="pl-pds">"</span></span>,
-  <span class="pl-s"><span class="pl-pds">"</span>email<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>golang-nuts@googlegroups.com<span class="pl-pds">"</span></span>
-}</pre></div>
