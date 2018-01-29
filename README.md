@@ -10,12 +10,14 @@ CREATE TABLE songs (<br/>
 <br/>
 <h2> <strong>API Endpoint</strong></h2><br/>
 <ul>
-<li><a href="http://localhost:1234/api/v1/companies">http://localhost:1234/api/v1/companies</a>
-<ul>
-<li><code>GET</code>: get list of Users</li>
-<li><code>POST</code>: create User</li>
-</ul>
-</li>
+    <li>
+        POST: <a href="#">http://localhost:5555/song</a><br/>
+        body:</br>
+        {</br>
+	    "Title":"Fight Song",</br>
+	    "Singer":"Rachel Platten"</br>
+        }</br>
+    </li>
 </ul>
 <hr/>
 <h2>Data Structure</h2><br/>
