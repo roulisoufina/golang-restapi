@@ -1,12 +1,12 @@
 # golang-restapi
 <h2>Database Configuration</h2><br/>
-CREATE DATABASE gorestapidb;
-USE gorestapidb;
-CREATE TABLE songs (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(50) NOT NULL,
-    singer VARCHAR(50) NOT NULL
-);
+<span>CREATE DATABASE gorestapidb;<br/>
+USE gorestapidb;<br/>
+CREATE TABLE songs (<br/>
+    id INT AUTO_INCREMENT PRIMARY KEY,<br/>
+    title VARCHAR(50) NOT NULL,<br/>
+    singer VARCHAR(50) NOT NULL<br/>
+);</span><br/>
 <br/>
 <h2> <strong>API Endpoint</strong></h2><br/>
 <ul>
